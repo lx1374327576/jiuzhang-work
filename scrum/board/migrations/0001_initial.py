@@ -15,25 +15,31 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Sprint',
             fields=[
-                ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
-                ('name', models.CharField(max_length=100, blank=True, default='')),
-                ('description', models.TextField(blank=True, default='')),
+                ('id', models.AutoField(primary_key=True, auto_created=True, verbose_name='ID', serialize=False)),
+                ('name', models.CharField(max_length=100, default='', blank=True)),
+                ('description', models.TextField(default='', blank=True)),
                 ('end', models.DateField(unique=True)),
             ],
+            options={
+            },
+            bases=(models.Model,),
         ),
         migrations.CreateModel(
             name='Task',
             fields=[
-                ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
+                ('id', models.AutoField(primary_key=True, auto_created=True, verbose_name='ID', serialize=False)),
                 ('name', models.CharField(max_length=100)),
-                ('description', models.TextField(blank=True, default='')),
-                ('status', models.SmallIntegerField(default=1, choices=[(1, 'Not started'), (2, 'In progress'), (3, 'Testing'), (4, 'Done')])),
+                ('description', models.TextField(default='', blank=True)),
+                ('status', models.SmallIntegerField(default=1, choices=[(1, 'Not Started'), (2, 'In Progress'), (3, 'Testing'), (4, 'Done')])),
                 ('order', models.SmallIntegerField(default=0)),
                 ('started', models.DateField(blank=True, null=True)),
                 ('due', models.DateField(blank=True, null=True)),
                 ('completed', models.DateField(blank=True, null=True)),
-                ('assigned', models.ForeignKey(blank=True, null=True, to=settings.AUTH_USER_MODEL)),
-                ('sprint', models.ForeignKey(blank=True, null=True, to='board.Sprint')),
+                ('assigned', models.ForeignKey(to=settings.AUTH_USER_MODEL, blank=True, null=True)),
+                ('sprint', models.ForeignKey(to='board.Sprint', blank=True, null=True)),
             ],
+            options={
+            },
+            bases=(models.Model,),
         ),
     ]
