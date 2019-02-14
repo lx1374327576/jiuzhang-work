@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6ca2ab1-58d7-4b07-a46d-74325347a6c2" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/frontend/src/reducers/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +18,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/react-drf-stosql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-drf-stosql.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-drf-stosql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-drf-stosql.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> parent of 49137c4... add react template
       <change beforePath="$PROJECT_DIR$/scrum/board/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrum/board/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrum/board/admin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scrum/board/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrum/board/migrations/0001_initial.py" afterDir="false" />
@@ -31,6 +37,9 @@
       <change beforePath="$PROJECT_DIR$/scrum/scrum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrum/scrum/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrum/scrum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrum/scrum/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrum/scrum/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrum/scrum/wsgi.py" afterDir="false" />
+<<<<<<< HEAD
+>>>>>>> parent of 49137c4... add react template
+=======
 >>>>>>> parent of 49137c4... add react template
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,9 +55,12 @@
         <entry file="file://$PROJECT_DIR$/scrum/scrum/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
 =======
+=======
+>>>>>>> parent of 49137c4... add react template
             <state relative-caret-position="394">
               <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
               <folding>
@@ -60,12 +72,15 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
 =======
+=======
+>>>>>>> parent of 49137c4... add react template
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrum/board/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -84,6 +99,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrum/board/migrations/0001_initial.py">
@@ -154,10 +170,49 @@
             <state relative-caret-position="45">
               <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
 >>>>>>> parent of 49137c4... add react template
+=======
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/scrum/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/board/migrations/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/scrum/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-881" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/board/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/scrum/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scrum/board/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+>>>>>>> parent of 49137c4... add react template
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrum/scrum/urls.py">
@@ -168,11 +223,19 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrum/board/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
+=======
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scrum/board/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 49137c4... add react template
             <state relative-caret-position="206">
               <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> parent of 49137c4... add react template
+=======
 >>>>>>> parent of 49137c4... add react template
             </state>
           </provider>
@@ -215,6 +278,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
@@ -286,6 +350,10 @@
       <path value="$PROJECT_DIR$/node_modules/xtend/package.json" />
       <path value="$PROJECT_DIR$/node_modules/yallist/package.json" />
     </packageJsonPaths>
+=======
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+>>>>>>> parent of 49137c4... add react template
 =======
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -379,6 +447,9 @@
 =======
     <frame x="0" y="23" width="1680" height="910" extended-state="0" />
     <editor active="true" />
+<<<<<<< HEAD
+>>>>>>> parent of 49137c4... add react template
+=======
 >>>>>>> parent of 49137c4... add react template
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,6 +484,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/scrum/scrum/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -462,6 +534,10 @@
 =======
     <entry file="file://$PROJECT_DIR$/scrum/scrum/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+    <entry file="file://$PROJECT_DIR$/scrum/scrum/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> parent of 49137c4... add react template
         <state relative-caret-position="30">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
@@ -480,6 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1620">
           <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
         </state>
@@ -505,11 +582,16 @@
         <state relative-caret-position="600">
           <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
 >>>>>>> parent of 49137c4... add react template
+=======
+        <state relative-caret-position="600">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+>>>>>>> parent of 49137c4... add react template
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/models.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
@@ -531,11 +613,16 @@
         <state relative-caret-position="90">
           <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
 >>>>>>> parent of 49137c4... add react template
+=======
+        <state relative-caret-position="90">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+>>>>>>> parent of 49137c4... add react template
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="1620">
           <caret line="116" column="43" selection-start-line="116" selection-start-column="43" selection-end-line="116" selection-end-column="43" />
@@ -568,6 +655,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/scrum/settings.py">
 >>>>>>> parent of 49137c4... add react template
+=======
+        <state relative-caret-position="1665">
+          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/scrum/settings.py">
+>>>>>>> parent of 49137c4... add react template
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
@@ -577,8 +675,13 @@
     <entry file="file://$PROJECT_DIR$/scrum/board/views.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+=======
+        <state relative-caret-position="322">
+          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+>>>>>>> parent of 49137c4... add react template
 =======
         <state relative-caret-position="322">
           <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
@@ -588,6 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state>
           <caret lean-forward="true" />
@@ -623,6 +727,15 @@
     <entry file="file://$PROJECT_DIR$/scrum/board/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
 >>>>>>> parent of 49137c4... add react template
+=======
+        <state relative-caret-position="90">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/board/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> parent of 49137c4... add react template
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,6 +744,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/scrum/board/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,6 +775,18 @@
       </provider>
 =======
     <entry file="file://$PROJECT_DIR$/scrum/board/__init__.py">
+=======
+    <entry file="file://$PROJECT_DIR$/scrum/board/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/board/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/board/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/scrum/__init__.py">
+>>>>>>> parent of 49137c4... add react template
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/migrations/__init__.py">
@@ -676,9 +802,12 @@
     <entry file="file://$PROJECT_DIR$/scrum/board/forms.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="495">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
 =======
+=======
+>>>>>>> parent of 49137c4... add react template
         <state relative-caret-position="150">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
@@ -690,6 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/board/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="1620">
           <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
@@ -725,10 +855,21 @@
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
+=======
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrum/scrum/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-881" />
+>>>>>>> parent of 49137c4... add react template
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrum/scrum/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-881" />
 >>>>>>> parent of 49137c4... add react template
       </provider>
@@ -739,6 +880,8 @@
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
 =======
+=======
+>>>>>>> parent of 49137c4... add react template
         <state relative-caret-position="394">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
           <folding>
@@ -751,7 +894,12 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state>
+=======
+        <state relative-caret-position="206">
+          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+>>>>>>> parent of 49137c4... add react template
 =======
         <state relative-caret-position="206">
           <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
