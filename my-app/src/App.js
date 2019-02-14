@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import $ from  'jquery'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    componentDidMount() {
+        $.ajax({
+            url: "http://127.0.0.1:8000/api/tasks/",
+            dataType: 'json',
+            headers:{"Authorization":"Basic bHg6bHg4NTA5MDA2Ng=="},
+            type: 'get',
+            async:false,
+            success: function(data) {
+                console.log(data);
+            },
+             error: function(xhr) {
+            alert(xhr.status+" "+xhr.readyState+" "+xhr.statusText);
+            },
+        });
+    }
+    render() {
+        return (
+             <div>
+                 {data.result}
+             </div>
+        );
+    }
+
 }
 
 export default App;
