@@ -51,7 +51,21 @@ class TaskViewSet(DefaultsMixin, viewsets.ModelViewSet):
     def patch(self, request, pk=None):
         # Task.objects.filter(id=request.data.get('id')).status = 4
         task = Task.objects.filter(id=request.data.get('id'))[0]
-        task.status = request.data.get('status')
+        if request.data.get('status') != '0':
+            task.status = request.data.get('status')
+        if request.data.get('text') != '':
+            task.description = request.data.get('text')
+        task.save()
+        return Response({'code': 0})
+
+    def put(self, request, pk=None):
+        task = Task()
+        task.id = request.data.get('id')
+        task.name = request.data.get('name')
+        task.description = request.data.get('description')
+        task.status = '1'
+        task.order = '0'
+        task.due = '2019-02-28'
         task.save()
         return Response({'code': 0})
 
