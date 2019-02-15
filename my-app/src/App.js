@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import $ from  'jquery'
 
-// eslint-disable-next-line
-function ListItem(props){
-    console.log(3);
-    console.log(props.value);
-    return <li>{props.value.description}</li>;
-}
-
 class App extends Component {
 
     constructor(props){
@@ -21,6 +14,16 @@ class App extends Component {
                 "results":[],
             }
         }
+        this.haveDoneCLick = this.haveDoneCLick.bind(this);
+        this.deleteClick = this.deleteClick.bind(this);
+    }
+
+    haveDoneCLick(event){
+        alert("done");
+    }
+
+    deleteClick(event){
+        alert("delete");
     }
 
     componentDidMount() {
@@ -40,21 +43,29 @@ class App extends Component {
         });
         this.setState(function(){
             console.log(2);
-            console.log(data_tmp);
            return {data:data_tmp};
         });
     }
 
     render() {
         return (
-            <ul>
-                {console.log(1)}
-                {console.log(this.state.data)}
-                {this.state.data.results.map((item)=>
-                    <ListItem key={item.id}
-                              value={item}/>
-                )}
-            </ul>
+            <div>
+                <h1>所有事项列表</h1>
+                <ul>
+                    {console.log(1)}
+                    {this.state.data.results.map((item)=>
+                        <li key={item.id}>
+                            {item.id}
+                            {item.name}
+                            {item.description}
+                            {item.status_display}
+                            <button value={item.id} onClick={this.props.haveDoneCLick}>done</button>
+                            <button value={item.id} onClick={this.props.deleteClick}>delete</button>
+                        </li>
+                    )}
+                </ul>
+            </div>
+
         );
     }
 
