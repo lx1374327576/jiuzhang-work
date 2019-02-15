@@ -5,13 +5,15 @@ from rest_framework import authentication, permissions, viewsets, filters
 from .forms import SprintFilter, TaskFilter
 from .models import Sprint, Task
 from .serializers import SprintSerializer, TaskSerializer, UserSerializer
-
+from rest_framework.decorators import detail_route
+from rest_framework.response import Response
+from rest_framework import mixins
 
 User = get_user_model()
 
 
 class DefaultsMixin(object):
-    
+
     authentication_classes = (
         authentication.BasicAuthentication,
         authentication.TokenAuthentication,    
@@ -39,7 +41,16 @@ class SprintViewSet(DefaultsMixin, viewsets.ModelViewSet):
     
 
 class TaskViewSet(DefaultsMixin, viewsets.ModelViewSet):
-    
+
+    def delete(self, request, pk=None):
+        # print(request.data.get('id'))
+        Task.objects.filter(id=request.data.get('id')).delete()
+
+        return Response({'code': 0})
+
+    def patch(self, request, pk=None):
+        return Response({'code': 0})
+
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
     filter_class = TaskFilter

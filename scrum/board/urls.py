@@ -7,3 +7,5 @@ router = DefaultRouter()
 router.register(r'sprints', views.SprintViewSet)
 router.register(r'tasks', views.TaskViewSet)
 router.register(r'users', views.UserViewSet)
+
+# router.register(r'tasks/update', views.TaskUpdateViewSet)

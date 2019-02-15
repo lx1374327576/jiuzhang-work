@@ -19,11 +19,42 @@ class App extends Component {
     }
 
     haveDoneCLick(event){
-        alert("done");
+        console.log("done"+event.target.value);
+
     }
 
     deleteClick(event){
-        alert("delete");
+        $.ajax({
+            url: "http://127.0.0.1:8000/api/tasks/",
+            dataType: 'json',
+            headers:{"Authorization":"Basic bHg6bHg4NTA5MDA2Ng=="},
+            type: 'delete',
+            data: {id:event.target.value},
+            async:false,
+            success: function(data,textStatus){
+            },
+             error: function(xhr) {
+            alert(xhr.status+" "+xhr.readyState+" "+xhr.statusText);
+            },
+        });
+        var data_tmp=null;
+        $.ajax({
+            url: "http://127.0.0.1:8000/api/tasks/",
+            dataType: 'json',
+            headers:{"Authorization":"Basic bHg6bHg4NTA5MDA2Ng=="},
+            type: 'get',
+            async:false,
+            success: function(data,textStatus){
+               data_tmp=data;
+            },
+             error: function(xhr) {
+            alert(xhr.status+" "+xhr.readyState+" "+xhr.statusText);
+            },
+        });
+        this.setState(function(){
+            console.log(2);
+           return {data:data_tmp};
+        });
     }
 
     componentDidMount() {
@@ -59,8 +90,8 @@ class App extends Component {
                             {item.name}
                             {item.description}
                             {item.status_display}
-                            <button value={item.id} onClick={this.props.haveDoneCLick}>done</button>
-                            <button value={item.id} onClick={this.props.deleteClick}>delete</button>
+                            <button value={item.id} onClick={this.haveDoneCLick}>done</button>
+                            <button value={item.id} onClick={this.deleteClick}>delete</button>
                         </li>
                     )}
                 </ul>
