@@ -49,6 +49,10 @@ class TaskViewSet(DefaultsMixin, viewsets.ModelViewSet):
         return Response({'code': 0})
 
     def patch(self, request, pk=None):
+        # Task.objects.filter(id=request.data.get('id')).status = 4
+        task = Task.objects.filter(id=request.data.get('id'))[0]
+        task.status = request.data.get('status')
+        task.save()
         return Response({'code': 0})
 
     queryset = Task.objects.all()
